@@ -1,0 +1,29 @@
+Things to download:
+Silent Hill 1 - https://vimm.net/vault/6039
+Duck Station Emulator - https://www.duckstation.org/windl.html (Download Duck option. You should already have VC++RT)
+PS1 BIOS - https://retromania.gg/bios/psx-playstation-bios-scph1001-bin-1 (needed for the emulator to run the PS1)
+A program to extract zipped archives if you do not already have one
+
+Organization:
+Create a folder on whatever drive you want to store all of your Silent Hill games in. I have a folder on my C drive for all PS1 games, so I store it there. Unzip the Silent Hill 1 archive here that you got from the first link. 
+Make a new folder on whatever drive you want for your Duckstation Emulator. This is where the Emulator is going to go, so put it somewhere where you are ok with it being permanent.
+Unzip the Duckstation archive into this folder. 
+Then make a new folder in that Duckstation folder called BIOS. Unzip the BIOS archive you downloaded into this folder
+
+The Process: 
+Now go to the Duckstation folder and double click on the Duckstation QT program. Once it launches, click the settings icon on the top right. 
+Navigate to the BIOS Settings tab, and in the BIOS Directory section, click Browse. Navigate to the BIOS folder you created earlier, and press Open. Now back in the emulator settings, click Refresh List in the first section of the BIOS Settings.
+Now go to the Enhancement Settings ab, and set your Internal Resolution Scale. I use 1440p because that is the resolution of my monitor; you might want to use 1080p unless you want to run the game at 4k or something like that. 
+Now check your settings and make sure they look the same as mine. Go to the Display Settings tab as well as the Emulation Settings tab and make sure your settings match mine too.
+If you created a folder for PS1 games in general, you can go to the Game List Settings tab and add that folder for all of your games. 
+
+Setting up your controller: 
+Go to the Controller Settings tab in the settings, and make sure you controller is connected. In Port 1, choose Analog Controller(DualShock) for your Controller Type. Now click on each corresponding box to rebind your buttons to buttons on your controller. I have attached an image for you to see which buttons are which. L1 is the top left bumper, and L2 is the bottom left trigger. L3 is pressing the left stick in. I have no clue which button is Analog, but it shouldn't matter. Axis Bindings is for your sticks, so move them in the up for Y or right for X directions. Once you are done, click Save Profile at the bottom left, and save it as whatever you want. 
+
+Starting the game:
+Now back out to the emulator itself, and click the Start File button at the top left. Navigate to where you unzipped Silent Hill, and open the .bin file. It should be the first file as well as the largest file. 
+The game should now boot up if you have done everything correctly, and you should test to see if your controller is working in the menu. If you are fine with running the game at 15fps, then you do not have to do the next step. You can save your game either in the game or by using the save and load features in the emulator itself. You can go in and out of full screen by pressing whatever binding you have set in your Settings in the Hotykey Settings Tab.
+30fps mod: 
+Right click on the SH1 game in your emulator main screen, and go to the Properties. Now go to the User Settings (Console) tab, and check Enable Clock Speed Control. Then Drag the bar up to 200% speed and close out. 
+Launch the game again and click the shark Cheats button in the emulator once the game is running. Click on the Cheat Manager option, and click Add Code at the bottom left of that new pop up. In the Description call it 30fps and in the text box at the bottom paste this in: 300A8FF0 00000002. Click Save and check the new mod you just added. Now close the Cheat Manager and restart the game. You should now be good to go
+
