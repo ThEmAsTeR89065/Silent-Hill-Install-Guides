@@ -1,0 +1,22 @@
+Enhanced Edition(Recommended over Emulation):
+
+Things to Download: 
+Silent Hill 2 pc version - https://www.myabandonware.com/game/silent-hill-2-restless-dreams-bgd
+	-Download the fully extracted version if you are on Windows and the ISO version if you are on Linux
+Enhanced Edition Mod - https://enhanced.townofsilenthill.com/SH2/install.htm (Downlaod link is in Step 2. Ignore Step 1)
+	- Only download if you are on Windows
+	
+Organization: 
+Create a folder on one of your drives for where you want Silent Hill 2 to go
+
+The Process:
+Windows: Extract the game to your Silent Hill 2 folder that you made. Go to Step 2 in the Enhanced Edition guide, and download the mod setup exe. Run this and follow the instructions to install the mod.
+Linux: Mount the ISOs and install Lutris. Use this page to install the Enhanced Edition -> https://lutris.net/games/silent-hill-2-directors-cut/. Lutris will have you direct it to your mounted CDs when needed, and it will install the mod for you.
+
+Setup: 
+If you are using Windows, you can run SH2EEconfig.exe to change your settings around. 
+If you are using Linux, you can configure your settings through Lutris. 
+
+You should now have a working copy of Silent Hill 2 Enhanced Edition
+
+Emulation:
